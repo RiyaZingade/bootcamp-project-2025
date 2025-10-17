@@ -15,7 +15,7 @@ body {
   flex-direction: column;
 }
 
-/* Navbar Styles */
+
 .navbar {
   background: rgba(20, 20, 20, 0.8);
   backdrop-filter: blur(10px);
@@ -64,7 +64,7 @@ body {
   border-bottom-color: #6dc47b;
 }
 
-/* Main Content */
+
 main {
   flex: 1;
   max-width: 1200px;
@@ -87,7 +87,7 @@ main h1,
   margin-bottom: 3rem;
 }
 
-/* About Section */
+
 .about {
   display: flex;
   gap: 3rem;
@@ -127,7 +127,7 @@ main h1,
   font-weight: 600;
 }
 
-/* Download Link */
+
 main > a {
   display: inline-block;
   background: linear-gradient(135deg, #579b62 0%, #6dc47b 100%);
@@ -146,7 +146,6 @@ main > a:hover {
   box-shadow: 0 8px 25px rgba(109, 196, 123, 0.4);
 }
 
-/* Resume Container */
 .resume {
   background: rgba(30, 30, 30, 0.5);
   padding: 3rem;
@@ -154,7 +153,7 @@ main > a:hover {
   border: 1px solid rgba(109, 196, 123, 0.15);
 }
 
-/* Section Styles */
+
 .section {
   margin-bottom: 3rem;
   padding-bottom: 2rem;
@@ -204,7 +203,7 @@ main > a:hover {
   margin-top: 0.5rem;
 }
 
-/* Skill List */
+
 .skill-list {
   list-style: none;
   display: flex;
@@ -228,7 +227,7 @@ main > a:hover {
   transform: translateY(-2px);
 }
 
-/* Course List */
+
 .course-list {
   list-style: none;
   display: grid;
@@ -251,7 +250,7 @@ main > a:hover {
   border-left-color: #c9fdb5;
 }
 
-/* Contact Form Styles */
+
 #contact-form {
   background: rgba(30, 30, 30, 0.5);
   padding: 3rem;
@@ -322,7 +321,7 @@ main > a:hover {
   display: none;
 }
 
-/* Blog Styles */
+
 .blog-div,
 #blog-container {
   max-width: 1200px;
@@ -377,7 +376,7 @@ main > a:hover {
   font-size: 0.95rem;
 }
 
-/* Footer */
+
 .footer,
 footer {
   background: rgba(20, 20, 20, 0.8);
@@ -390,7 +389,7 @@ footer {
   border-top: 1px solid rgba(109, 196, 123, 0.1);
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
   .navbar {
     flex-direction: column;
