@@ -7,6 +7,10 @@
   border-bottom: 1px solid #ddd;
 }
 
+.navbar a:hover{
+  color: #6dc47b;
+}
+
 .logo a {
   color: #333;
   text-decoration: none;
@@ -24,12 +28,59 @@
 }
 
 .navList a {
-  color: #333;
+  color: #b4b4b4;
   text-decoration: none;
+  font-size: 0.95rem;
   font-weight: 500;
-  transition: color 0.2s ease;
+  padding: 0.5rem 0;
+  border-bottom: 2px solid transparent;
+  transition: all 0.3s ease;
 }
 
 .navList a:hover {
-  color: #0070f3;
+  color: #6dc47b;
+  border-bottom-color: #6dc47b;
 }
+
+
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  color: #e8e8e8;
+  background: linear-gradient(135deg, #0f0f0f 0%, #1a1a1a 100%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  background: rgba(20, 20, 20, 0.8);
+  backdrop-filter: blur(10px);
+  padding: 1.2rem 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  border-bottom: 1px solid rgba(109, 196, 123, 0.1);
+}
+
+.logo a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-transform: lowercase;
+  letter-spacing: -0.5px;
+  transition: color 0.3s ease;
+}
+
+
+
+
+
+
+
+

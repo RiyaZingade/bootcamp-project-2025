@@ -1,0 +1,62 @@
+.pageTitle {
+  margin-bottom: 3rem;
+  margin-left: 4rem;
+  margin-top: 4rem;
+}
+
+.about {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  margin-top: 2rem;
+  background: rgba(30, 30, 30, 0.5);
+  padding: 3rem;
+  border-radius: 16px;
+  border: 1px solid rgba(109, 196, 123, 0.15);
+}
+
+.aboutImage {
+  flex: 1;
+  max-width: 400px;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  border: 2px solid rgba(109, 196, 123, 0.2);
+}
+
+.aboutText {
+  flex: 1;
+  font-size: 1.1rem;
+  color: #d4d4d4;
+}
+
+.aboutText p {
+  margin-bottom: 1rem;
+  line-height: 1.8;
+}
+
+.aboutText b {
+  color: #b5fdc8;
+  font-weight: 600;
+}
+
+.link {
+  display: inline-block;
+  background: linear-gradient(135deg, #579b62 0%, #6dc47b 100%);
+  color: white;
+  padding: 0.9rem 2rem;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(109, 196, 123, 0.3);
+}
+
+.link:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(109, 196, 123, 0.4);
+}

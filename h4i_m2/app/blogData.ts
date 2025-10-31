@@ -15,7 +15,7 @@ const blogs: Blog[] = [
 	{
 		title: "post2",
 		description: "second blog post",
-        image: "/img2.jpg",
+        image: "/img2.png",
         slug: "blog2.html"
 	},
 ];

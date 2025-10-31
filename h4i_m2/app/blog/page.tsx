@@ -1,12 +1,11 @@
-import React from "react";
+import styles from "./blog.module.css";
+import blogs from "../blogData";
 import Image from "next/image";
 import Link from "next/link";
-import blogs from "../blogData"; // your blog data
-import styles from "./blog.module.css"; // create this CSS module (below)
 
 export default function BlogPage() {
   return (
-    <main className={styles.main}>
+    <main>
       <h1 className={styles.pageTitle}>Blog</h1>
       <div className={styles.blogContainer}>
         {blogs.map((blog, index) => (
@@ -20,9 +19,7 @@ export default function BlogPage() {
             />
             <h2>{blog.title}</h2>
             <p>{blog.description}</p>
-            <Link href={`/${blog.slug}`} className={styles.readMore}>
-              Read More →
-            </Link>
+            <Link href={`/${blog.slug}`} className = {styles.blogLink}>Read More →</Link>
           </div>
         ))}
       </div>

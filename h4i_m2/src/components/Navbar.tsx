@@ -9,7 +9,7 @@ export default function Navbar() {
         <Link href="/">riya's personal website</Link>
       </h1>
       <ul className={styles.navList}>
-        <li><Link href="/">Home</Link></li>
+        <li><Link href="/home">Home</Link></li>
         <li><Link href="/blog">Blog</Link></li>
         <li><Link href="/portfolio">Portfolio</Link></li>
         <li><Link href="/resume">Resume</Link></li>
