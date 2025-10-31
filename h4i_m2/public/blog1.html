@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog 1</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <!-- 🔹 Navigation Bar -->
+    <nav class="navbar">
+      <h1 class="logo"><a href="index.html">personal website</a></h1>
+      <ul class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- 🔹 Main Blog Content -->
+    <main class="blog-post">
+      <h1 class="page-title">Post 1: Understanding TypeScript Basics</h1>
+
+      <p class="blog-date"><strong>Date Posted:</strong> October 16, 2025</p>
+
+      <div class="blog-image-container">
+        <img src="img1.jpg" alt="TypeScript tutorial image" class="blog-image">
+      </div>
+
+
+      <article class="blog-content">
+        <p>
+          JavaScript has long been the backbone of web development, powering everything from small interactive components to complex web applications. 
+          However, as projects grow larger, managing JavaScript’s flexible, dynamically typed nature can become difficult. 
+          This is where TypeScript comes in. 
+          Developed by Microsoft, TypeScript is a superset of JavaScript that introduces static typing and other powerful 
+          features to help developers write more predictable and maintainable code.
+        </p>
+
+        <p>
+          At its core, TypeScript adds types to JavaScript. In plain JavaScript, variables can hold any type of value, 
+          and their type can change during runtime — which sometimes leads to unexpected errors. TypeScript, on the other 
+          hand, allows you to define the type of each variable, function parameter, and return value. For example, you can 
+          explicitly declare that a variable should only contain a string:
+        </p>
+
+        <p>
+          If you later try to assign a number to username, TypeScript will flag an error during compilation — 
+          before your code even runs. This early error detection is one of the biggest advantages of using TypeScript.
+          Another important concept is type inference. TypeScript is smart enough to infer the type of a variable from its initial value. 
+          For instance, if you write let age = 25;, TypeScript automatically understands that age is a number. This means you don’t always need to explicitly 
+          declare types, making your code both safe and concise.
+          TypeScript also introduces interfaces and type aliases, which help define the structure of objects and ensure that they follow specific patterns.
+        </p>
+
+        <p>
+          Here, the User interface ensures that any object passed into the greet function must have both name and age properties 
+          of the correct types. This feature greatly improves collaboration on large projects, where multiple developers need to 
+          work with consistent data shapes.
+        </p>
+
+        <p>
+          Beyond basic types, TypeScript supports union types, enums, tuples, and generics, giving you more control and 
+          flexibility when defining complex data structures. It also integrates seamlessly with modern development tools 
+          and frameworks like React, Angular, and Node.js, providing intelligent autocomplete, real-time error checking, 
+          and rich editor support.
+        </p>
+
+        <p>
+          Under the hood, TypeScript code is transpiled into plain JavaScript that runs in any browser or JavaScript 
+          environment. This means you get all the benefits of strong typing without sacrificing compatibility. The process 
+          is managed through a configuration file called tsconfig.json, which lets you customize how TypeScript compiles 
+          your project — for example, specifying which version of JavaScript to output or enabling strict type checking.
+        </p>
+
+        <p>
+          In essence, TypeScript bridges the gap between JavaScript’s flexibility and the robustness of statically 
+          typed languages. By learning its basic features — types, interfaces, and inference — you can write cleaner, 
+          more reliable code that’s easier to maintain and debug. Whether you’re building a small personal project or a 
+          large-scale application, understanding TypeScript’s basics is a powerful step toward becoming a more confident 
+          and efficient developer.
+        </p>
+      </article>
+    </main>
+
+    <!-- 🔹 Footer -->
+    <footer class="footer">
+      © 2025 Riya Zingade's Personal Website | All Rights Reserved
+    </footer>
+  </body>
+</html>
